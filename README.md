@@ -30,13 +30,18 @@ python -m venv venv
 Windows:
 
 ```bash
-venv\Scripts\activate
+source venv/Scripts/activate
 ```
 
 Linux / macOS:
 
 ```bash
 source venv/bin/activate
+```
+
+PowerShell:
+```bash
+venv\Scripts\activate
 ```
 
 Установка зависимостей:
@@ -139,6 +144,7 @@ src/
 
 ## Особенности
 
+* Python 3.12
 * Используется только стандартная библиотека (argparse, csv, statistics)
 * Расширяемая архитектура отчётов
 * Покрытие тестами (pytest)
