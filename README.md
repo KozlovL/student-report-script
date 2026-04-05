@@ -83,7 +83,7 @@ pytest
 pytest --cov=src
 ```
 
-![alt text](image.png)
+![alt text](examples/image.png)
 
 ---
 
@@ -148,4 +148,4 @@ src/
 
 ## Пример вывода
 
-![alt text](image-2.png)
+![alt text](examples/image-2.png)
