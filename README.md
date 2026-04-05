@@ -96,7 +96,7 @@ pytest --cov=src
 ```python
 # src/reports/new_report.py
 
-from reports.base import BaseReport
+from src.reports.base import BaseReport
 
 class NewReport(BaseReport):
     def build(self, data):
@@ -108,7 +108,7 @@ class NewReport(BaseReport):
 ```python
 # src/utils.py
 
-from reports.new_report import NewReport
+from src.reports.new_report import NewReport
 
 REPORTS = {
     'median-coffee': MedianCoffeeReport,
